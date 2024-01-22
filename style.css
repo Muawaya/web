@@ -170,8 +170,29 @@ section {
 
 .imgCSS {
     border-radius:0px 0px 0px 157px;
-    border-left: 0cm;
+   
+    
 }
 
 
+@media only screen and  (max-width:600px) and (orientation:landscape) {
+
+       .main{
+        width: 100%;
+        
+       }
+
+}
+
+
+@media ononly screen and (max-width:768px) and (orientation:landscape) {
+
+    .main{
+     width: 100%;
+     
+    }
+
+}
+
+/*600px, 601px, 768px, 992px, 1200px */
     
